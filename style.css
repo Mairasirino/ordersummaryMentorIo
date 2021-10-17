@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Red hat display', sans-serif;
+}
+#card {
+  background: #fff;
+  background-image: url('images/illustration-hero.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 50vh;
+  border-radius: 3vh;
+  padding: 11vh;
+  width: 28vh;
+  margin: auto;
+  margin-top: 10vh;
+  box-shadow: 1px 1px 15px rgba(158, 158, 158, 0.118);
+}
+
+.card_text {
+  padding-top: 16vh;
+  text-align: center;
+  text-justify: auto;
+  margin-top: 2vh;
+  width: 100%;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 1vh;
+}
+h1 {
+  color: hsl(223, 47%, 23%);
+
+  font-size: 1.1em;
+  font-weight: 900;
+}
+
+.annual_plan {
+  background: hsl(225, 100%, 98%);
+  margin: 2vh;
+  width: 28vh;
+  border-radius: 1vh;
+  display: flex;
+  align-items: center;
+}
+
+.annual_plan img {
+  margin: 2vh;
+  width: 6vh;
+}
+
+.annual_plan a {
+  margin: 2vh;
+  padding: 1vh;
+  font-size: 1.4vh;
+}
+
+.annual_plan h2 {
+  color: hsl(223, 47%, 23%);
+  font-size: 0.6em;
+  font-weight: 900;
+}
+
+.btngroup button {
+  margin: auto;
+  border-color: transparent;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+
+button.btn-payment {
+  background-color: hsl(245, 75%, 52%);
+  margin: 2vh;
+  padding: 1vh;
+  width: 28vh;
+  border-radius: 1vh;
+  box-shadow: 0px 8px 18px rgba(114, 114, 114, 0.549);
+  color: hsl(225, 100%, 98%);
+  font-weight: 700;
+  font-size: 0.7em;
+  justify-content: center;
+}
+
+button.btn-payment:hover {
+  background: hsl(245deg 75% 52% / 69%);
+}
+
+button.btn-cancel {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 0.7em;
+  margin-bottom: 2vh;
+}
+
+button.btn-cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
